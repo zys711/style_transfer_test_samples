@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEJ36F5JR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-3KEJ36F5JR');
+  </script>
+  <title>Learning Control of Neural Sound Effects Synthesis from Physically Inspired Models</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    h1 {
+      text-align: center;
+      width: 50%; /* Adjust this to suit your needs */
+      margin: 0 auto; /* This centers the h1 horizontally */
+      word-wrap: break-word;
+    }
+    .centered-table {
+      border-collapse: collapse; /* This removes the double borders */
+      width: 50%; /* Use the full width of the parent */
+      font-size: large;
+      margin-left: auto; /* Center the table horizontally */
+      margin-right: auto; /* Center the table horizontally */
+      
+    }
+    .centered-table, .centered-table th, .centered-table td {
+      border: 1px solid black;
+      text-align: center; /* Center the content horizontally */
+      vertical-align: middle; /* Center the content vertically */
+      padding: 10px; /* Reduce the space around the content */
+    }
+    .full-screen-video {
+      width: 70%; /* Use the full width of the parent */
+      height: auto; /* Maintain the aspect ratio */
+    }
+    .caption {
+    font-size: 20px;
+    }
+    .centered-text {
+      text-align: center;
+      width: 40%; /* Adjust this to suit your needs */
+      margin-left: auto; /* Center the table horizontally */
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Learning Control of Neural Sound Effects Synthesis
+    from Physically Inspired Models (be center) -->
+
+  <h1>Learning Control of Neural Sound Effects Synthesis
+    from Physically Inspired Models</h1>
+  <p></p>
+
+  <h2 class="centered-text">
+    <strong class="centered-text">Abstract</strong> 
+
+  </h2>
+
+  <h3 class="centered-text">
+    Sound effects model design commonly uses digital signal processing techniques with full control ability, but it is difficult to achieve realism within a limited number of parameters. Recently, neural sound effects synthesis methods have emerged as a promising approach for generating highquality and realistic sounds, but the process of synthesizing the desired sound poses difficulties in terms of control. This paper presents a real-time neural synthesis model guided by a physically inspired model, enabling the generation of high-quality sounds while inheriting the control interface of the physically inspired model. We showcase the superior performance of our model in terms of sound quality and control.
+  </h3>
+  <br>
+<br>
+<h2>This page is still under construction. Paper link coming soon.</h2>
+<br>
+<br>
+
+
+
+
+
+  <table class="centered-table">
+    <caption class="caption" style="caption-side: top; text-align: left;">Reconstruction</caption>
+    <tr>
+      
+      <th>Real</th>
+      <th>PM</th>
+      <th>PM24params</th>
+      <th>Supervised</th>
+    </tr>
+    <tr>
+      
+      <td><audio controls>
+        <source src="audios/669C/real.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <img src="spectrograms/669C/real.png">
+    </td>
+      <td><audio controls>
+        <source src="audios/669C/pm.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <img src="spectrograms/669C/pm.png">
+    </td>
+      <td><audio controls>
+        <source src="audios/669C/pm24.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/669C/pm24.png"></td>
+      <td><audio controls>
+        <source src="audios/669C/supervised.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/669C/supervised.png"></td>
+    </tr>
+    <tr>
+      
+      <td><audio controls>
+        <source src="audios/5075/real.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5075/real.png"></td>
+      <td><audio controls>
+        <source src="audios/5075/pm.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5075/pm.png"></td>
+      <td><audio controls>
+        <source src="audios/5075/pm24.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5075/pm24.png"></td>
+      <td><audio controls>
+        <source src="audios/5075/supervised.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5075/supervised.png"></td>
+    </tr>
+
+    <tr>
+      
+      <td><audio controls>
+        <source src="audios/5047/real.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5047/real.png"></td>
+      <td><audio controls>
+        <source src="audios/5047/pm.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5047/pm.png"></td>
+      <td><audio controls>
+        <source src="audios/5047/pm24.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5047/pm24.png"></td>
+      <td><audio controls>
+        <source src="audios/5047/supervised.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio><img src="spectrograms/5047/supervised.png"></td>
+    </tr>
+
+    <tr>
+      <td colspan="4">
+        <video controls class="full-screen-video">
+          <source src="videos/output.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </td>
+    
+<!--       
+      <td>Real Sample 2</td>
+      <td>PM Sample 2</td>
+      <td>PM24 Sample 2</td>
+      <td>Supervised Sample 2</td> -->
+    </tr>
+    <!-- Add more rows as needed -->
+  </table>
+
+
+  
+</body>
+</html>
